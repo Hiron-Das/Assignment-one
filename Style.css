@@ -1,0 +1,53 @@
+body{
+    font-family: 'Merriweather', serif; 
+}
+.the-section{
+    display: flex;
+}
+.child-of-section{
+    width: 50%;
+    margin: 30px;
+}
+.child-of-section img{
+    width: 70%;
+}
+#intro{
+    padding-left: 5px;
+    border-left: 2px solid;
+    border-image: linear-gradient(
+180deg, red, orange);
+    border-image-slice: 1;
+    border-radius: 20px;
+}
+.highlight-text{
+    color: rgb(236, 95, 60);
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, orange, red) ;
+    padding: 8px 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+#a-heading{
+    text-align: center;
+}
+#doc-1{
+    background-color: rgb(210, 231, 229);
+    padding: 15px;
+    box-shadow: 10px 10px 50px rgb(233, 209, 209);
+    border-radius: 8px;
+}
+#doc-2{
+    background-color: wheat;
+    padding: 15px;
+    box-shadow: 10px 10px 50px rgb(233, 209, 209);
+    border-radius: 8px;
+}
+#doc-3{
+    background-color: thistle;
+    padding: 15px;
+    box-shadow: 10px 10px 50px rgb(233, 209, 209);
+    border-radius: 8px;
+}
