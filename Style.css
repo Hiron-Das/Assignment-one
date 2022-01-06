@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Merriweather', serif; 
 }
 .the-section{
@@ -51,3 +52,17 @@ body{
     box-shadow: 10px 10px 50px rgb(233, 209, 209);
     border-radius: 8px;
 }
+#gym-form{
+    box-shadow: 10px 10px 50px rgb(233, 209, 209);
+    border-radius: 8px;
+    padding: 50px;
+}
+footer{
+    text-align: center ;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+
